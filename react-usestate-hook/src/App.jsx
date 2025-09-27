@@ -8,7 +8,12 @@ function App() {
   console.log(count);
   function addValue() {
     if (count < 5) {
-      setCount(count + 1);
+      setCount((prevCounter) => prevCounter + 1);
+      setCount((prevCounter) => prevCounter + 1);
+      setCount((prevCounter) => prevCounter + 1);
+      // setCount(count + 1);
+      // setCount(count + 1);
+      // setCount(count + 1);
     }
   }
   // let counter = 15;
