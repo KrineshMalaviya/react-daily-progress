@@ -9,8 +9,10 @@ function App() {
 
   return (
     <>
-      <Card productname="Monkey Sticker" price="230" />
-      <Card productname="Lion Sticker" price="500" />
+      <div className="flex m-4 gap-4 ">
+        <Card productname="Monkey Sticker" price="230" />
+        <Card productname="Lion Sticker" price="500" />
+      </div>
     </>
   );
 }
